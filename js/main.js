@@ -136,9 +136,9 @@
 
 const links = document.querySelectorAll('.header-link')
 const activeLink = () => {
-    const pathname = document.location.pathname
+    const pathname = document.location.href
     links.forEach(link => {
-        let linkHref = '/' + link.href.split('/').reverse()[0];
+        let linkHref = link.href;
         if (pathname == linkHref) {
             link.classList.add('active')
         }

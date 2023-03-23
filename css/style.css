@@ -463,13 +463,14 @@ ol {
 	left: 0;
 	top: 70px;
 	width: 180px;
-	background: #e4381C;
+	background: #ffc107;
 	opacity: 0;
 	visibility: hidden;
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 	z-index: 99;
+	border-radius: 12px;
 }
 
 .nav-menu .mainmenu ul li .dropdown li {
