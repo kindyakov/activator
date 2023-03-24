@@ -2908,10 +2908,6 @@ ol {
 	.container {
 		max-width: 1200px;
 	}
-
-	.hero-text h2 {
-		font-size: calc(60px + 24 * ((100vw - 360px) / 840)) !important;
-	}
 }
 
 /* Medium Device : 1200px */
